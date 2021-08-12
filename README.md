@@ -4,7 +4,7 @@ This repository contains the source code of my DirectX Raytracing research proje
 
 The project was started from the [Microsoft DirectX-Graphics-Samples](https://github.com/microsoft/DirectX-Graphics-Samples).
 
-The projects I worked on are MiniEngine/RayBinning and MiniEngine/AdaptiveSampling.
+The projects I worked on are [MiniEngine/AdaptiveSampling](https://github.com/SeppahBaws/DirectX-Raytracing/tree/main/MiniEngine/AdaptiveSampling) and [MiniEngine/RayBinning](https://github.com/SeppahBaws/DirectX-Raytracing/tree/main/MiniEngine/RayBinning).
 
 An in-depth explanation on the Adaptive Sampling project can be found on my portfolio entry: [https://seppedekeyser.be/projects/directx-raytracing](https://seppedekeyser.be/projects/directx-raytracing).
 
