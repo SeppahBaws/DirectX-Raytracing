@@ -8,6 +8,16 @@ The projects I worked on are MiniEngine/RayBinning and MiniEngine/AdaptiveSampli
 
 An in-depth explanation on the Adaptive Sampling project can be found on my portfolio entry: [https://seppedekeyser.be/projects/directx-raytracing](https://seppedekeyser.be/projects/directx-raytracing).
 
+## Cloning this repo
+
+Since some models used for benchmarking are very large, Git LFS is used.
+
+Check if you have Git LFS installed before cloning this repo:
+```
+$ git lfs install
+> Git LFS initialized.
+```
+
 ---
 
 ## Footnotes

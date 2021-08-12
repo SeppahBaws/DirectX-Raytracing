@@ -10,4 +10,5 @@
 *.sln eol=crlf
 # Explicitly declare resource files as binary
 *.bin binary
+# track h3d models with LFS
 *.h3d filter=lfs diff=lfs merge=lfs -text
