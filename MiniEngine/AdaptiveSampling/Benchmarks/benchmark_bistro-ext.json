@@ -1,0 +1,29 @@
+{
+	"sceneFile": "Models/bistro-exterior.h3d",
+	"configs": [
+		{
+			"cameraPos": [ -1494.46, 203.674, -128.028 ],
+            "cameraPitch": -0.00899999,
+            "cameraYaw": -1.6416,
+			"shadowDir": [ 1, 2.8, 1.6 ],
+			"shadowSphereSize": 0.3,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ 978.02, 206.101, 894.209 ],
+            "cameraPitch": -0.1674,
+            "cameraYaw": 0.8316,
+			"shadowDir": [ -3.6, 5.4, 1 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ -661.285, 86.1523, 425.595 ],
+            "cameraPitch": 0.1764,
+            "cameraYaw": -0.0755999,
+			"shadowDir": [ 1.4, 10, 6 ],
+			"shadowSphereSize": 0.3,
+			"shadowSphereOffset": 10
+		}
+	]
+}

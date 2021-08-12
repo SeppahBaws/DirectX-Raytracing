@@ -1,0 +1,29 @@
+{
+	"sceneFile": "Models/sponza.h3d",
+	"configs": [
+		{
+			"cameraPos": [ 1234.81, 20.4771, -25.7108 ],
+            "cameraPitch": 0.323594,
+            "cameraYaw": 1.518,
+			"shadowDir": [ 2, 3, 1 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ 537.637, 664.306, -493.376 ],
+            "cameraPitch": -0.310006,
+            "cameraYaw": 2.0634,
+			"shadowDir": [ 2, 3, 1 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ -308.38, 653.651, 222.414 ],
+            "cameraPitch": -0.513406,
+            "cameraYaw": 0.8041191,
+			"shadowDir": [ 2, 3, 1 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		}
+	]
+}

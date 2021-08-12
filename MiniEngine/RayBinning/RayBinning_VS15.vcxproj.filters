@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="DepthViewerVS.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthViewerPS.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ModelVS.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ModelPS.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="AORayGen.hlsl">
+      <Filter>Assets\Shaders\AmbientOcclusion</Filter>
+    </FxCompile>
+    <FxCompile Include="AOHit.hlsl">
+      <Filter>Assets\Shaders\AmbientOcclusion</Filter>
+    </FxCompile>
+    <FxCompile Include="DiffuseHit.hlsl">
+      <Filter>Assets\Shaders\Diffuse</Filter>
+    </FxCompile>
+    <FxCompile Include="DiffuseMiss.hlsl">
+      <Filter>Assets\Shaders\Diffuse</Filter>
+    </FxCompile>
+    <FxCompile Include="DiffuseRayGen.hlsl">
+      <Filter>Assets\Shaders\Diffuse</Filter>
+    </FxCompile>
+    <FxCompile Include="AOMiss.hlsl">
+      <Filter>Assets\Shaders\AmbientOcclusion</Filter>
+    </FxCompile>
+    <FxCompile Include="RayBinningCompute.hlsl">
+      <Filter>Assets\Shaders\RayBinning</Filter>
+    </FxCompile>
+    <FxCompile Include="DiffuseRayGenBinned.hlsl">
+      <Filter>Assets\Shaders\RayBinning</Filter>
+    </FxCompile>
+    <FxCompile Include="DiffuseHitBinned.hlsl">
+      <Filter>Assets\Shaders\RayBinning</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RaytracingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RaytracingPSO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{dd722889-9096-47dd-b9b6-3f28c4241974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{bdf9f72d-21c2-40d3-9448-c44dddeb43a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{67b249f6-c24e-45e2-9552-501c94c31e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\AmbientOcclusion">
+      <UniqueIdentifier>{752e2488-9c33-4776-9a91-38856c09f2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\Diffuse">
+      <UniqueIdentifier>{d815ef18-00d9-4e83-97ef-5602d22c4efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders\RayBinning">
+      <UniqueIdentifier>{8f46f5e9-c615-4f14-a5cb-67c2f871c521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingTest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertPosTexNorm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytraceCommon.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingHlslCompat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingPSO.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RayBinningCommon.h">
+      <Filter>Assets\Shaders\RayBinning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Structs.hlsli">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Packing.hlsli">
+      <Filter>Assets\Shaders\RayBinning</Filter>
+    </None>
+  </ItemGroup>
+</Project>

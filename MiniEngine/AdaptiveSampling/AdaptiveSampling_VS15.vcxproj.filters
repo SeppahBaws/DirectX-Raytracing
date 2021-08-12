@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{06dcf987-d5c3-489b-aa0a-88d547a323d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Raytracing">
+      <UniqueIdentifier>{c1fc1ce3-b418-4357-a5fe-2af23aecb5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Raytracing\PosDepth">
+      <UniqueIdentifier>{9f3054b2-56f2-47bc-a924-4c63417eab15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Raytracing\RTEffects">
+      <UniqueIdentifier>{15a88a60-a462-4aee-8b23-7557ac17a3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{0cfb7868-fb34-4646-b412-32fd4bc44969}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RaytracingHelpers\AccelerationStructureBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Raytracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RaytracingHelpers\RaytracingPSO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RaytracingHelpers\DispatchRaysInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RaytracingHelpers\DescriptorHeapStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaptiveSampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Logo44.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SmallLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SplashScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="StoreLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WideLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\DepthViewerPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthViewerVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ModelPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ModelVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\DefaultClosestHit.hlsl">
+      <Filter>Shaders\Raytracing</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\DefaultMiss.hlsl">
+      <Filter>Shaders\Raytracing</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\DefaultRayGen.hlsl">
+      <Filter>Shaders\Raytracing</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\PosDepth\PosDepthClosestHit.hlsl">
+      <Filter>Shaders\Raytracing\PosDepth</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\PosDepth\PosDepthMiss.hlsl">
+      <Filter>Shaders\Raytracing\PosDepth</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\PosDepth\PosDepthRayGen.hlsl">
+      <Filter>Shaders\Raytracing\PosDepth</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\RTEffects\RTEffectsClosestHit.hlsl">
+      <Filter>Shaders\Raytracing\RTEffects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\RTEffects\RTEffectsMiss.hlsl">
+      <Filter>Shaders\Raytracing\RTEffects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\RTEffects\RTEffectsRayGen.hlsl">
+      <Filter>Shaders\Raytracing\RTEffects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Raytracing\NoiseMapGen\NoiseMapGen.hlsl" />
+    <FxCompile Include="Shaders\Raytracing\NoiseMapGen\NoiseMapBlur.hlsl" />
+    <FxCompile Include="Shaders\Raytracing\FinalCombine\FinalCombine.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Structs.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RaytracingHelpers\AccelerationStructureBuilder.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Raytracer.h" />
+    <ClInclude Include="Shaders\Util\RaytracingHlslCompat.h" />
+    <ClInclude Include="Shaders\Util\HlslCompat.h" />
+    <ClInclude Include="RaytracingHelpers\RaytracingPSO.h" />
+    <ClInclude Include="AdaptiveSampling.h" />
+    <ClInclude Include="RaytracingHelpers\DispatchRaysInput.h" />
+    <ClInclude Include="RaytracingHelpers\DescriptorHeapStack.h" />
+    <ClInclude Include="Shaders\Util\ShaderStructs.h" />
+    <ClInclude Include="Shaders\Util\RaytraceCommon.h">
+      <Filter>Shaders\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Raytracing\DefaultPassCommon.h">
+      <Filter>Shaders\Raytracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Raytracing\PosDepth\PosDepthCommon.h">
+      <Filter>Shaders\Raytracing\PosDepth</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Raytracing\RTEffects\RTEffectsCommon.h">
+      <Filter>Shaders\Raytracing\RTEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Raytracing\NoiseMapGen\NoiseMapCommon.h" />
+    <ClInclude Include="Shaders\Raytracing\FinalCombine\FinalCombineCommon.h" />
+    <ClInclude Include="Dependencies\json.hpp">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Benchmark.h" />
+  </ItemGroup>
+</Project>

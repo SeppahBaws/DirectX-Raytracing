@@ -1,0 +1,29 @@
+{
+	"sceneFile": "Models/bistro-interior.h3d",
+	"configs": [
+		{
+			"cameraPos": [ 819.959, 154.376, 381.257 ],
+            "cameraPitch": -0.315,
+            "cameraYaw": 0.5652,
+			"shadowDir": [ -2.2, 2.6, 2 ],
+			"shadowSphereSize": 0.2,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ 359.981, 307.977, -224.343 ],
+            "cameraPitch": -0.3006,
+            "cameraYaw": -1.44,
+			"shadowDir": [ -2.2, 0.4, 2 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ 130.012, 224.526, -121.465 ],
+            "cameraPitch": -0.2592,
+            "cameraYaw": 0.1656,
+			"shadowDir": [ -4.2, 3.8, 12.2 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		}
+	]
+}

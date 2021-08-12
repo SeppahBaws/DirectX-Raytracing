@@ -1,0 +1,105 @@
+==========  PROFILE - NO BINNING  ==========
+
+Started frame profiling, please hold on...
+Diffuse 1 - Average over 1000 frames:
+    2.6372 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 2 - Average over 1000 frames:
+    2.63765 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 3 - Average over 1000 frames:
+    2.64769 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 4 - Average over 1000 frames:
+    2.6294 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 5 - Average over 1000 frames:
+    2.64323 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 6 - Average over 1000 frames:
+    2.66527 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 7 - Average over 1000 frames:
+    2.6739 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 8 - Average over 1000 frames:
+    2.67331 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 9 - Average over 1000 frames:
+    2.68365 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 10 - Average over 1000 frames:
+    2.67043 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 11 - Average over 1000 frames:
+    2.65394 ms
+==========================
+Started frame profiling, please hold on...
+Diffuse 12 - Average over 1000 frames:
+    2.65073 ms
+==========================
+
+
+
+
+==========  PROFILE - WITH BINNING  ==========
+
+Started frame profiling, please hold on...
+RayBinning 1 - Average over 1000 frames:
+    2.70529 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 2 - Average over 1000 frames:
+    2.70699 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 3 - Average over 1000 frames:
+    2.70243 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 4 - Average over 1000 frames:
+    2.6691 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 5 - Average over 1000 frames:
+    2.66116 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 6 - Average over 1000 frames:
+    2.68929 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 7 - Average over 1000 frames:
+    2.68529 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 8 - Average over 1000 frames:
+    2.69238 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 9 - Average over 1000 frames:
+    2.69502 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 10 - Average over 1000 frames:
+    2.70004 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 11 - Average over 1000 frames:
+    2.68956 ms
+==========================
+Started frame profiling, please hold on...
+RayBinning 12 - Average over 1000 frames:
+    2.68226 ms
+==========================
+

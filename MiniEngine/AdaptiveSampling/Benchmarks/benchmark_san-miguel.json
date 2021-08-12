@@ -1,0 +1,37 @@
+{
+	"sceneFile": "Models/san-miguel-low-poly-scaled.h3d",
+	"configs": [
+		{
+			"cameraPos": [ -2292.89, 206.738, -1291 ],
+            "cameraPitch": -0.0918,
+            "cameraYaw": -2.2716,
+			"shadowDir": [ 1.6, 4, 1.2 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ -677.554, 1490.51, -874.455 ],
+            "cameraPitch": -0.675,
+            "cameraYaw": 2.49239,
+			"shadowDir": [ 2.4, 6.4, -6 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ -2011.8, 216.662, -524.645 ],
+            "cameraPitch": -0.2664,
+            "cameraYaw": -1.8576,
+			"shadowDir": [ -2.8, 9.8, 2 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		},
+		{
+			"cameraPos": [ -676.213, 272.903, 57.7396 ],
+            "cameraPitch": -0.3762,
+            "cameraYaw": 1.782,
+			"shadowDir": [ -3.2, 9.2, -5.6 ],
+			"shadowSphereSize": 0.1,
+			"shadowSphereOffset": 10
+		}
+	]
+}
