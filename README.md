@@ -10,13 +10,15 @@ An in-depth explanation on the Adaptive Sampling project can be found on my port
 
 ## Cloning this repo
 
-Since some models used for benchmarking are very large, Git LFS is used.
+Since some models used for benchmarking are very large, they are distributed as a zip folder under the [releases tab](https://github.com/SeppahBaws/DirectX-Raytracing/releases).
 
-Check if you have Git LFS installed before cloning this repo:
-```
-$ git lfs install
-> Git LFS initialized.
-```
+Simply download the zip folder in the latest release, and extract the assets in the following locations:
+
+| folder in zip file     | extract contents to repo directory               |
+| ---------------------- | ------------------------------------------------ |
+| AdaptiveSampling/*     | MiniEngine/AdaptiveSampling/Models/*             |
+| ModelConverter_Clean/* | MiniEngine/ModelConverter_Clean/ModelConverter/* |
+| RayBinning/*           | MiniEngine/RayBinning/Models/*                   |
 
 ---
 
